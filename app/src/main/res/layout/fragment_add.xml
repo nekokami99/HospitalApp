@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose the service you want"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose the doctor you want"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose the date you want"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <CalendarView
+            android:id="@+id/cv_add"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Continue"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+
+</FrameLayout>

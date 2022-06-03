@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Notification"
+            android:icon="@drawable/ic_nav_notification" />
+
+        <item
+            android:id="@+id/nav_receipt"
+            android:title="Receipt"
+            android:icon="@drawable/ic_nav_receipt" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:title="Message"
+            android:icon="@drawable/ic_nav_message" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_profile_cus" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+</menu>

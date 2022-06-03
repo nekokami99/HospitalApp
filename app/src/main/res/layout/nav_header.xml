@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp">
+
+    <ImageView
+        android:id="@+id/acc_avatar"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_nav_person"/>
+
+
+        <TextView
+            android:id="@+id/acc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account name"
+            android:paddingTop="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/acc_pn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account phone number"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/acc_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Account email"
+            android:paddingBottom="10dp"
+            android:textSize="10sp" />
+
+
+</LinearLayout>
