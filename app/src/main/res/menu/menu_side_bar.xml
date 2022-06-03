@@ -13,10 +13,6 @@
             android:title="Receipt"
             android:icon="@drawable/ic_nav_receipt" />
 
-        <item
-            android:id="@+id/nav_message"
-            android:title="Message"
-            android:icon="@drawable/ic_nav_message" />
 
         <item
             android:id="@+id/nav_profile"

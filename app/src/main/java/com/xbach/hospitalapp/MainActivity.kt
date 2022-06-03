@@ -42,12 +42,9 @@ class MainActivity : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.nav_notification -> {
-                    changeFragment(notiFragment, drawerLayout)
-                }
-                R.id.nav_receipt -> makeCurrentFragment(receiptFragment)
-                R.id.nav_profile -> makeCurrentFragment(profileFragment)
-                R.id.nav_message -> Toast.makeText(applicationContext,"clicked message",Toast.LENGTH_SHORT).show()
+                R.id.nav_notification -> changeFragment(notiFragment, drawerLayout)
+                R.id.nav_receipt -> changeFragment(receiptFragment, drawerLayout)
+                R.id.nav_profile -> changeFragment(profileFragment, drawerLayout)
                 R.id.nav_logout -> Toast.makeText(applicationContext,"clicked logout",Toast.LENGTH_SHORT).show()
             }
             true
