@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/discount_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount name"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/discount_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount describe"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/discount_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount percent"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/discount_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount start date"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/discount_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount start end"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
